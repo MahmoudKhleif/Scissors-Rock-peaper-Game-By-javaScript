@@ -15,22 +15,22 @@ document.querySelector(".img2").setAttribute("src", imagePlus2);
 
 
 if (random1 === 1 && random2 === 2) {
-    document.querySelector("h1").innerHTML = "Scissors beats Peaper";
+    document.querySelector("h1").innerHTML = "Scissors beats Paper";
     document.querySelector("h2").innerHTML = "Player Number one win";
 } else if (random1 === 1 && random2 === 3) {
     document.querySelector("h1").innerHTML = "Rock beats Scissors";
     document.querySelector("h2").innerHTML = "Player Number two win";
 } else if (random1 === 2 && random2 === 1) {
-    document.querySelector("h1").innerHTML = "Scissors beats Peaper";
+    document.querySelector("h1").innerHTML = "Scissors beats Paper";
     document.querySelector("h2").innerHTML = "Player Number two win";
 } else if (random1 === 2 && random2 === 3) {
-    document.querySelector("h1").innerHTML = "Peaper beats Rock ";
+    document.querySelector("h1").innerHTML = "Paper beats Rock ";
     document.querySelector("h2").innerHTML = "Player Number one win";
 } else if (random1 === 3 && random2 === 1) {
     document.querySelector("h1").innerHTML = "Rock beats Scissors ";
     document.querySelector("h2").innerHTML = "Player Number one win";
 } else if (random1 === 3 && random2 === 2) {
-    document.querySelector("h1").innerHTML = "Peaper beats Rock ";
+    document.querySelector("h1").innerHTML = "Paper beats Rock ";
     document.querySelector("h2").innerHTML = "Player Number two win";
 } else {
     document.querySelector("h1").innerHTML = "Try again please:";
